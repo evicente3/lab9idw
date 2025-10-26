@@ -1,0 +1,10 @@
+let monto=prompt("ingrese su monto a retirar");
+let billetes100=monto/100;
+let resto100=billetes100%100;
+let billetes50=resto100/5;
+let resto50=billetes50%50;
+let billetes20=resto50/20;
+let resto20=billetes20%20;
+let billetes10=resto10/10;
+let resto10=billetes%10;
+console.log("para : "+"monto hay "+billetes100+" billetes de 100"+billetes50+" billetes de 50"+", "+billetes20+"billetes de 20, "+billetes10+" billetes de 10");
